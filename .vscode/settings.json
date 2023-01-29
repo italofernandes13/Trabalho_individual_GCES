@@ -1,0 +1,15 @@
+{
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintArgs": [
+        "--disable=D100",
+        "--disable=D101",
+        "--disable=D102",
+        "--disable=D103",
+        "--disable=D104",
+        "--disable=D105",
+        "--disable=D106",
+        "--disable=D107"
+    ]
+    
+}
