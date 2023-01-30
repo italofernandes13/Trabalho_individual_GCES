@@ -34,14 +34,3 @@ jobs:
 
     - name: Publicando build no PyPI
       run: poetry publish --build
-
-    - name: setup git config
-      run: |
-        git config user.name "GitHub Actions - Poetry publish PyPi"
-        git config user.email "<>"
-
-    - name: commit
-      run: |
-        git add pyproject.toml poetry.lock dist/
-        git commit -m "Publish PyPI new version"
-        git push origin develop
