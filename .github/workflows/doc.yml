@@ -43,6 +43,6 @@ jobs:
     - name: commit
       run: |
         git switch -c documentation
-        git add documentation/*
+        git add docsSphinx/
         git commit -m "Build new documentation [skip ci]"
         git push origin documentation -f
